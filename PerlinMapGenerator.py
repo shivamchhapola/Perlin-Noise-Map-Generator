@@ -8,14 +8,15 @@ import GenerateCircularGradient
 
 height = 512
 width = 512
-persistivity = 0.5
-lac = 2
-octa = 3
-scale = 80
-seed = 128
-gradientRadius = 100
+persistivity = 0.5  # Should be between 0 and 1
+lac = 2  # Should be more than one
+octa = 3  # Should be more than one
+scale = 100  # The Higher the scale the more zoomed in map will be
+seed = 128  # Can be any value
+gradientRadius = 100  # The higher the value, smaller gradient will be formed
 
 random.seed(seed)
+# Behaves weirdly if value is larger than 100000
 ow = random.uniform(-100000, 100000)
 oh = random.uniform(-100000, 100000)
 

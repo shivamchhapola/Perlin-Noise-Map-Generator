@@ -12,5 +12,4 @@ I was making a game in unity and started searching for ways to generate terrain 
 
 ## Here's a picture of a random cat
 
-<br/>
 ![I love cats](https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg)
